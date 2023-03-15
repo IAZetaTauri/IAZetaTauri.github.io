@@ -4,25 +4,38 @@ body {
     font-family: 'Alegreya Sans', Verdana, sans-serif;
 }
 header {
+    text-align: center;
     font-family: 'Exo 2', Helvetica, sans-serif;
     background-repeat: no-repeat;
     background-position: right;
 }
-.image1 {
-    object-position: center;
-    top: 0;
-    left: 0;
-    border: 1px solid #f1f1f1;
-}
-h2 {
-    font-family: 'Exo 2', Helvetica, sans-serif;
+hr { 
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
 }
 nav {
+    text-align: center;
     font-family: 'Exo 2', Helvetica, sans-serif;
 }
 nav a {
     text-decoration: none;
     color: #f1f1f1;
+}
+.image1 {
+    display: block;
+    width: 50%;
+    border: 1px solid #f1f1f1;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+h2 {
+    text-align: center;
+    font-family: 'Exo 2', Helvetica, sans-serif;
+}
+p {
+    text-indent: 3%;
 }
 footer {
     font-style: italic;
@@ -31,5 +44,5 @@ footer {
 }
 footer a {
     text-decoration: none;
-    color: #f1f1f1;
+    color: #222222;
 }
