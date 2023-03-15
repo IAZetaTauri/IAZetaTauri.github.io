@@ -1,7 +1,27 @@
 body {
-    background-color: #446879; 
+    background-image: url("images/earth.jpg");
     color:#f1f1f1;
+    font-family: 'Alegreya Sans', Verdana, sans-serif;
 }
-head {
-    background-color:
+header {
+    font-family: 'Exo 2', Helvetica, sans-serif;
+}
+h2 {
+    font-family: 'Exo 2', Helvetica, sans-serif;
+}
+nav {
+    font-family: 'Exo 2', Helvetica, sans-serif;
+}
+nav a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+footer {
+    font-style: italic;
+    text-align: center;
+    font-family: 'Exo 2', Helvetica, sans-serif;
+}
+footer a {
+    text-decoration: none;
+    color: #f1f1f1;
 }
