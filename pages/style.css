@@ -6,8 +6,9 @@ body {
 header {
     text-align: center;
     font-family: 'Exo 2', Helvetica, sans-serif;
+    background-image: url("images/space.jpg");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
 }
 hr { 
     width: 60%;
