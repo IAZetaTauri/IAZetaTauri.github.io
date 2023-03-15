@@ -1,10 +1,18 @@
 body {
-    background-image: url("images/earth.jpg");
+    background-color: #878787;
     color:#f1f1f1;
     font-family: 'Alegreya Sans', Verdana, sans-serif;
 }
 header {
     font-family: 'Exo 2', Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.image1 {
+    object-position: center;
+    top: 0;
+    left: 0;
+    border: 1px solid #f1f1f1;
 }
 h2 {
     font-family: 'Exo 2', Helvetica, sans-serif;
