@@ -1,5 +1,8 @@
+/*expectations for this section of code: create a 2 
+column layout and add more styling. can use floats, flexbox, 
+or grid layout*/
 body {
-    background-color: #878787;
+    background-color: #f1f1f1;
     color:#f1f1f1;
 }
 #wrapper {
@@ -28,7 +31,7 @@ hr {
     width: 60%;
     margin-right: auto;
     margin-left: auto;
-    color: #f1f1f1
+    color: #
 }
 nav {
     text-align: center;
@@ -36,7 +39,7 @@ nav {
 }
 nav a {
     text-decoration: none;
-    color: white;
+    color: #f1f1f1 ;
     font-family: 'Exo 2', Helvetica, sans-serif;
 }
 nav ul {
@@ -50,25 +53,31 @@ nav li {
 nav a:hover {
     color: #e6ff00;
 }
-.image1 {
-    display: block;
-    width: 50%;
-    height: 50%;
+#studio {
+    background-image: url('images/studio.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    max-width: 100vw;
     border: 1px solid #f1f1f1;
-    clear: both;
-    padding: 1em;
 }
-.image2 {
-    display: block;
-    width: 50%;
-    height: 50%;
+#camera {
+    background-image: url('images/camera.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    max-width: 100vw;
     border: 1px solid #f1f1f1;
-    clear: both;
-    padding: 1em;
 }
 h2 {
     text-align: center;
     font-family: 'Exo 2', Helvetica, sans-serif;
+}
+section {
+    float: right;
+    width: 25%;
+    overflow: auto;
+    display: block;
+    border: 1px solid #c8291c;
+    clear: both;
 }
 footer {
     font-size: 75%;
