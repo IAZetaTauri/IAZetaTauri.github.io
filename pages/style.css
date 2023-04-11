@@ -82,8 +82,7 @@ nav a:hover::before {
 }
 .img {
     float: left;
-    max-width: 800px;
-    min-width: 600px;
+    width: 50%;
 }
 #studio {
     clear: both;
@@ -94,7 +93,7 @@ nav a:hover::before {
 
 }
 #camera {
-    clear: both;
+    clear: both;    
     background-image: url('images/camera.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -103,9 +102,6 @@ nav a:hover::before {
 h2 {
     text-align: center;
     font-family: 'Exo 2', Helvetica, sans-serif;
-}
-p {
-    text-align: center;
 }
 ul {
     list-style-position: inside;
@@ -126,9 +122,15 @@ footer a:hover {
 }
 .column {
     float: right;
-    clear: both;
+    overflow: auto;
     width: 50%;
-    max-width: 800px;
+    min-width: 600px;
+}
+.content1 {
+    padding-top: 130px;
+}
+.content2 {
+    padding-top: 150px;
 }
 * {
     box-sizing: border-box;
