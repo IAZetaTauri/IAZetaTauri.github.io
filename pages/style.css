@@ -80,13 +80,21 @@ nav a:hover::before {
     width: 100%;
 
 }
+.img {
+    float: left;
+    max-width: 800px;
+    min-width: 600px;
+}
 #studio {
+    clear: both;
     background-image: url('images/studio.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin: 1em;
+
 }
 #camera {
+    clear: both;
     background-image: url('images/camera.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -95,6 +103,12 @@ nav a:hover::before {
 h2 {
     text-align: center;
     font-family: 'Exo 2', Helvetica, sans-serif;
+}
+p {
+    text-align: center;
+}
+ul {
+    list-style-position: inside;
 }
 footer {
     font-size: 75%;
@@ -111,16 +125,10 @@ footer a:hover {
     color: #e6ff00
 }
 .column {
-    float: left;
-    width: 100%;
-    max-width: 800px;
-    overflow: auto;
-    padding-left: 85px;
-}
-.row:after {
-    content: '';
-    display: table;
+    float: right;
     clear: both;
+    width: 50%;
+    max-width: 800px;
 }
 * {
     box-sizing: border-box;
