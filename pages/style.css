@@ -23,8 +23,8 @@ header {
     margin: 0;
     top: 0;
     position: sticky;
-    z-index: 100;
-    background-color: #ebecf0;
+    z-index: 9999;
+    background-color: #e6ff00;
     padding-bottom: 10px;
 }
 header::after {
@@ -38,11 +38,11 @@ header::after {
     width: 80px;
 }
 nav {
-    position: fixed;
-    margin-left: 61.5vw;
-    margin-right: 61.5vw;
+    z-index: 9999;
+    position: sticky;
     padding-top: 0px;
-    min-width: 960px;
+    min-width: 40em;
+    text-align: center;
 }
 nav a::before {
     content: '';
