@@ -82,20 +82,8 @@ nav a:hover::before {
     float: left;
     width: 50%;
 }
-#studio {
-    clear: both;
-    background-image: url('images/studio.jpg');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    margin: 1em;
-
-}
-#camera {
-    clear: both;    
-    background-image: url('images/camera.jpg');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    margin: 1em;
+h1 {
+    text-align: center;
 }
 h2 {
     text-align: center;
@@ -123,12 +111,6 @@ footer a:hover {
     overflow: auto;
     width: 50%;
     min-width: 600px;
-}
-.content1 {
-    padding-top: 130px;
-}
-.content2 {
-    padding-top: 150px;
 }
 p {
     text-align: center;
