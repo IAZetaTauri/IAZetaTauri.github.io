@@ -72,7 +72,7 @@ nav li {
     position: relative;
 }
 nav a:hover {
-    color: #e6ff00;
+    color: #000000;
 }
 nav a:hover::before {
     width: 100%;
