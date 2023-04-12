@@ -132,6 +132,7 @@ footer a:hover {
 }
 p {
     text-align: center;
+    font-size: 20px;
 }
 * {
     box-sizing: border-box;
