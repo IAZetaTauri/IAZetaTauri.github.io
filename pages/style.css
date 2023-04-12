@@ -130,6 +130,9 @@ footer a:hover {
 .content2 {
     padding-top: 150px;
 }
+p {
+    text-align: center;
+}
 * {
     box-sizing: border-box;
 }
