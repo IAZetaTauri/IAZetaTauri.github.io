@@ -93,6 +93,7 @@ h2 {
 ul {
     list-style-position: inside;
     list-style-type: none;
+    text-decoration: none;
 }
 figcaption {
     font-weight: bold;
