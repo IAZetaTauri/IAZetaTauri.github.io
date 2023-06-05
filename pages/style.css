@@ -79,10 +79,6 @@ nav a:hover::before {
     width: 100%;
 
 }
-.img {
-    float: left;
-    width: 50%;
-}
 h1 {
     text-align: center;
 }
@@ -115,12 +111,6 @@ footer a {
 }
 footer a:hover {
     color: #e6ff00
-}
-.column {
-    float: right;
-    overflow: auto;
-    width: 50%;
-    min-width: 600px;
 }
 p {
     text-align: center;
