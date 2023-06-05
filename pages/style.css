@@ -95,6 +95,9 @@ ul {
     list-style-type: none;
     text-decoration: none;
 }
+li {
+    text-decoration: none;
+}
 figcaption {
     font-weight: bold;
 }
