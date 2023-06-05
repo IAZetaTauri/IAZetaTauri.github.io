@@ -79,6 +79,72 @@ nav a:hover::before {
     width: 100%;
 
 }
+.container-img {
+    position: relative;
+}
+.container-img .wrapper {
+    width: 100%;
+    height: 600px;
+    margin: 6rem auto;
+    overflow: hidden;
+}
+.container-img .wrapper-holder {
+    display: grid;
+    grid-template-columns: repeat(4, 100%);
+    height: 100%;
+    width: 100%;
+    animation:slider 30s ease-in-out infinite alternate; 
+}
+.container-img #slider-img-1 {
+    background-image: url(images/sugarhi-album.png);
+    background-size: 800px 540px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container-img #slider-img-2 {
+    background-image: url(images/straye-album.png);
+    background-size: 800px 540px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container-img #slider-img-3 {
+    background-image: url(images/pdr-album.png);
+    background-size: 800px 540px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container-img #slider-img-4 {
+    background-image: url(images/paradigm-album-ver2.png);
+    background-size: 800px 540px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container-img .button-holder .button {
+    background-color: #ebecf0;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: .3rem;
+}
+.container-img .button-holder {
+    position: absolute;
+    left: 45%;
+    bottom: 0%;
+}
+@keyframes slider {
+    0% {transform: translateX(0%);}
+    10% {transform: translateX(-100%);}
+    20% {transform: translateX(-100%);}
+    30% {transform: translateX(-200%);}
+    40% {transform: translateX(-200%);}
+    50% {transform: translateX(-200%);}
+    60% {transform: translateX(-300%);}
+    70% {transform: translateX(-300%);}
+    80% {transform: translateX(-300%);}
+    90% {transform: translateX(0%);}
+    100% {transform: translateX(0%);}
+}
 h1 {
     text-align: center;
 }
