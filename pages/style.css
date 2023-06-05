@@ -6,7 +6,6 @@ body {
 }
 #wrapper {
     background-color: #ebecf0;
-    border-left: 1px solid #000000;
     font-size: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -84,8 +83,8 @@ nav a:hover::before {
 }
 .container-img .wrapper {
     width: 100%;
-    height: 600px;
-    margin: 6rem auto;
+    height: 500px;
+    margin: 1rem auto;
     overflow: hidden;
 }
 .container-img .wrapper-holder {
@@ -97,40 +96,31 @@ nav a:hover::before {
 }
 .container-img #slider-img-1 {
     background-image: url(images/sugarhi-album.png);
-    background-size: 800px 540px;
+    background-size: 780px 460px;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: #969fc4;
 }
 .container-img #slider-img-2 {
     background-image: url(images/straye-album.png);
-    background-size: 800px 540px;
+    background-size: 780px 460px;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: #f56420;
 }
 .container-img #slider-img-3 {
     background-image: url(images/pdr-album.png);
-    background-size: 800px 540px;
+    background-size: 780px 460px;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: #0e0715;
 }
 .container-img #slider-img-4 {
     background-image: url(images/paradigm-album-ver2.png);
-    background-size: 800px 540px;
+    background-size: 780px 460px;
     background-position: center;
     background-repeat: no-repeat;
-}
-.container-img .button-holder .button {
-    background-color: #ebecf0;
-    width: 15px;
-    height: 15px;
-    border-radius: 15px;
-    display: inline-block;
-    margin: .3rem;
-}
-.container-img .button-holder {
-    position: absolute;
-    left: 45%;
-    bottom: 0%;
+    background-color: #cd0f00;
 }
 @keyframes slider {
     0% {transform: translateX(0%);}
