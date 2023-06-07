@@ -96,28 +96,28 @@ nav a:hover::before {
 }
 .container-img #slider-img-1 {
     background-image: url(images/sugarhi-album.png);
-    background-size: 780px 480px;
+    background-size: 780px 490px;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #969fc4;
 }
 .container-img #slider-img-2 {
     background-image: url(images/straye-album.png);
-    background-size: 780px 480px;
+    background-size: 780px 490px;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #f56420;
 }
 .container-img #slider-img-3 {
     background-image: url(images/pdr-album.png);
-    background-size: 780px 480px;
+    background-size: 780px 490px;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #0e0715;
 }
 .container-img #slider-img-4 {
     background-image: url(images/paradigm-album-ver2.png);
-    background-size: 780px 480px;
+    background-size: 780px 490px;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #cd0f00;
@@ -150,6 +150,9 @@ ul {
 a {
     text-decoration: none;
     color: #000000;
+}
+a:hover{
+    color: #e6ff00;
 }
 figcaption {
     font-weight: bold;
