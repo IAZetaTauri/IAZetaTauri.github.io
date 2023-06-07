@@ -4,80 +4,6 @@ body {
     font-family: 'Alegreya Sans', Verdana, sans-serif;
     margin-top: 0;
 }
-#wrapper {
-    background-color: #ebecf0;
-    font-size: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    min-width: 960px;
-    max-width: 2048px;
-    overflow: auto;
-}
-.container {
-    max-width: 100%;
-    margin: 0;
-    font-size: 28px;
-}
-header {
-    margin: 0;
-    top: 0;
-    position: sticky;
-    z-index: 9999;
-    background-color: #ebecf0;
-    padding-bottom: 10px;
-}
-header::after {
-    content: '';
-    display: table;
-    clear: both;
-}
-.logo {
-    float: left;
-    height: 80px;
-    width: 80px;
-    margin: 10px;
-}
-nav {
-    z-index: 9999;
-    position: sticky;
-    padding-top: 0px;
-    min-width: 40em;
-    text-align: center;
-}
-nav a::before {
-    content: '';
-    display: block;
-    height: 5px;
-    background-color: #e6ff00;
-    position: absolute;
-    width: 0%;
-    transition: all ease-in-out 250ms;
-}
-nav a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #000000;
-    font-family: 'Exo 2', Helvetica, sans-serif;
-}
-nav ul {
-    margin: 0;
-    padding: 0; 
-    list-style-type: none;
-}
-nav li {
-    display: inline-block;
-    margin-left: 75px;
-    padding-top: 25px;
-    position: relative;
-}
-nav a:hover {
-    color: #000000;
-}
-nav a:hover::before {
-    width: 100%;
-
-}
 .container-img {
     position: relative;
 }
@@ -146,27 +72,6 @@ ul {
     list-style-position: inside;
     list-style-type: none;
     text-decoration: none;
-}
-a {
-    text-decoration: none;
-    color: #000000;
-}
-a:hover{
-    color: #e6ff00;
-}
-footer {
-    font-size: 75%;
-    clear: both;
-    font-style: italic;
-    text-align: center;
-    font-family: 'Exo 2', Helvetica, sans-serif;
-}
-footer a {
-    text-decoration: none;
-    color: #000000;
-}
-footer a:hover {
-    color: #e6ff00
 }
 p {
     text-align: center;
