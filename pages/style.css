@@ -73,11 +73,23 @@ nav a:hover::before {
     grid-template-columns: repeat(2, 1fr);
     border-bottom: 1px solid #000000;
 }
-#img-1 {
+.artist-img {
     display: grid;
     place-items: center;
 }
-#img-2{
+#mus-img-1 {
+    display: grid;
+    place-items: center;
+}
+#mus-img-2 {
+    display: grid;
+    place-items: center;
+}
+#mus-img-3 {
+    display: grid;
+    place-items: center;
+}
+#mus-img-4 {
     display: grid;
     place-items: center;
 }
@@ -156,6 +168,10 @@ p {
 }
 .grid-col-span {
     grid-column: span 2;
+    align-items: center;
+}
+.content-1 {
+    align-items: center;
 }
 * {
     box-sizing: border-box;
