@@ -1,8 +1,11 @@
 body {
-    background-image: linear-gradient(#d4d4d4, #ebecf0);
+    background-image: linear-gradient(#949494, #ebecf0);
     color:#000000;
     font-family: 'Alegreya Sans', Verdana, sans-serif;
     margin: 0;
+}
+.background {
+    background-color: #ebecf0;
 }
 header {
     margin: 0;
@@ -68,6 +71,7 @@ nav a:hover::before {
     display: grid;
     gap: 1.5rem;
     grid-template-columns: repeat(2, 1fr);
+    border-bottom: 1px solid #000000;
 }
 #img-1 {
     display: grid;
@@ -152,9 +156,6 @@ p {
 }
 .grid-col-span {
     grid-column: span 2;
-}
-hr {
-    border-top: 1px solid #000000;
 }
 * {
     box-sizing: border-box;
