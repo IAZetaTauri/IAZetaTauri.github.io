@@ -10,6 +10,9 @@ nav a {
     color: #000000;
     font-family: 'Exo 1', Helvetica, sans-serif;
 }
+.container-nav {
+    
+}
 .container {
     display: grid;
     gap: 1.5rem;
