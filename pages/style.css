@@ -2,16 +2,67 @@ body {
     background-image: linear-gradient(#d4d4d4, #ebecf0);
     color:#000000;
     font-family: 'Alegreya Sans', Verdana, sans-serif;
-    margin-top: 0;
+    margin: 0;
+}
+header {
+    margin: 0;
+    top: 0;
+    position: sticky;
+    z-index: 9999;
+    background-color: #ebecf0;
 }
 nav a {
     text-decoration: none;
     font-weight: bold;
     color: #000000;
-    font-family: 'Exo 1', Helvetica, sans-serif;
+    font-family: 'Exo 2', Helvetica, sans-serif;
+    font-size: 30px;
 }
-.container-nav {
-    
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.logo {
+    float: left;
+    height: 90px;
+    width: 90px;
+    margin: 10px;
+}
+nav {
+    z-index: 9999;
+    position: sticky;
+    padding-top: 0px;
+    min-width: 40em;
+    text-align: center;
+}
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #e6ff00;
+    position: absolute;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+}
+nav ul {
+    margin: 0;
+    padding: 10px 0;
+    list-style-type: none;
+    width: 80%;
+    float: left;
+}
+nav li {
+    display: inline-block;
+    margin-left: 75px;
+    padding-top: 25px;
+    position: relative;
+}
+nav a:hover {
+    color: #000000;
+}
+nav a:hover::before {
+    width: 100%;
 }
 .container {
     display: grid;
@@ -104,4 +155,7 @@ p {
 }
 hr {
     border-top: 1px solid #000000;
+}
+* {
+    box-sizing: border-box;
 }
