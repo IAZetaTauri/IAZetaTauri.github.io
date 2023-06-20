@@ -67,6 +67,21 @@ nav a:hover {
 nav a:hover::before {
     width: 100%;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    width: 100%;
+}
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+input {
+    margin: 10px;
+}
 .container {
     display: grid;
     gap: 1.5rem;
