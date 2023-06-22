@@ -75,24 +75,44 @@
                     <li>Live Singing (can be a cover of a song or a self-composed song)</li>
                 </ul>
         <h2 class="grid-col-span">Audition Form</h2>
+        <h3 class="grid-col-span"><strong>All Fields Required</strong></h3>
             <form class="grid-container grid-col-span">
-                <label for="firstName">*First Name:</label>
+                <label for="firstName">First Name:</label>
                     <input type="text" name="firstName" id="firstName" required="required">
-                <label for="lastName">*Last Name:</label>
+                <label for="lastName">Last Name:</label>
                     <input type="text" name="lastName" id="lastName" required="required">
-                <label for="email">*E-mail Address:</label>
+                <label for="dob">Date of Birth:</label>
+                    <input type="date" name="dob" id="dob" required="required">
+                <label for="sex">Sex:</label>
+                    <input type="text" name="sex" id="sex" list="fm">
+                        <datalist id="fm">
+                            <option>Male</option>
+                            <option>Female</option>
+                        </datalist>
+                <label for="height">Height:</label>
+                    <input type="text" name="height" id="height" required="required" value="cm">
+                    <label for="weight">Weight:</label>
+                    <input type="text" name="weight" id="weight" required="required" value="kg">
+                <label for="email">E-mail Address:</label>
                     <input type="text" name="email" id="email" required="required">
-                <label for="phone">*Phone Number:</label>
+                <label for="phone">Phone Number:</label>
                     <input type="text" name="phone" id="phone" required="required" maxlength="12">
-                <label for="career">Desired Career</label>
+                <label for="career">Desired Career:</label>
                     <select size="1" name="career" id="career">
                         <option value="undetermined">Undetermined</option>
                         <option value="producer">Producer</option>
                         <option value="lyricist">Lyricist</option>
                         <option value="singer">Singer</option>
                         <option value="dancer">Dancer</option>
+                        <option value="idol">Idol</option>
                     </select>
-                <label for="submission">*Submission</label>
+                <label for="introGoals">Introduction & Future Goals</label>
+                    <textarea name="introGoals" id="introGoals" rows="2" cols="20"></textarea>
+                <label for="actAwards">Activites & Awards</label>
+                    <textarea name="actAwards" id="actAwards" rows="2" cols="20"></textarea>
+                <label for="currentDateTime">Current Date & Time:</label>
+                    <input type="datetime-local" name="currentDateTime" id="currentDateTime" required="required">
+                <label for="submission">Submission:</label>
                     <input type="file" name="submission" id="submission" required="required">
                 <div class="grid-item grid-col-span">
                     <input type="submit">
