@@ -191,6 +191,13 @@ p {
     justify-content: center;
     width: 100%;
 }
+.logos-span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 40px;
+}
 table {
     border-spacing: 15px;
 }
