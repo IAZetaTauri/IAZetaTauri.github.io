@@ -184,12 +184,14 @@ p {
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    padding: 40px;
 }
 .table2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    padding: 40px;
 }
 .logos-span {
     display: flex;
@@ -207,6 +209,9 @@ th {
 }
 td {
     width: 550px;
+}
+tr:nth-of-type(even) {
+    background-color: #e6ff00;
 }
 tbody {
     width: 1000px;
