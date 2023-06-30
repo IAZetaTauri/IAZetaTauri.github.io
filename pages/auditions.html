@@ -82,54 +82,86 @@
                     <li>Multiple supporting files can be uploaded, but please limit to 5</li>
                 </ul>
         <h2 class="grid-col-span">Audition Form</h2>
-        <h3 class="grid-col-span"><strong>All Fields Required</strong></h3>
-            <form method="post" action="https://webdevbasics.net/scripts/demo.php" class="grid-container grid-col-span">
-                <label for="firstName">First Name:</label>
-                    <input type="text" name="firstName" id="firstName" required="required">
-                <label for="lastName">Last Name:</label>
-                    <input type="text" name="lastName" id="lastName" required="required">
-                <label for="dob">Date of Birth:</label>
-                    <input type="date" name="dob" id="dob" required="required">
-                <label for="sex">Sex:</label>
-                    <input type="text" name="sex" id="sex" list="fm">
-                        <datalist id="fm">
-                            <option>Male</option>
-                            <option>Female</option>
-                        </datalist>
-                <label for="height">Height:</label>
-                    <input type="text" name="height" id="height" required="required" value="cm">
+        <p class="grid-col-span"><strong>All Fields Required</strong></p>
+        <div class="form-container">
+            <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+                <div id="flex-container">
+                    <label for="firstName">First Name:</label>
+                        <input type="text" name="firstName" id="firstName" required="required">
+                </div>
+                <div id="flex-container">
+                    <label for="lastName">Last Name:</label>
+                        <input type="text" name="lastName" id="lastName" required="required">
+                </div>
+                <div id="flex-container">
+                    <label for="dob">Date of Birth:</label>
+                        <input type="date" name="dob" id="dob" required="required">
+                </div>
+                <div id="flex-container">
+                    <label for="sex">Sex:</label>
+                        <input type="text" name="sex" id="sex" list="fm">
+                            <datalist id="fm">
+                                <option>Male</option>
+                                <option>Female</option>
+                            </datalist>
+                </div>
+                <div id="flex-container">
+                    <label for="height">Height:</label>
+                        <input type="text" name="height" id="height" required="required" value="cm">
+                </div>
+                <div id="flex-container">
                     <label for="weight">Weight:</label>
-                    <input type="text" name="weight" id="weight" required="required" value="kg">
-                <label for="email">E-mail Address:</label>
-                    <input type="text" name="email" id="email" required="required">
-                <label for="phone">Phone Number:</label>
-                    <input type="text" name="phone" id="phone" required="required" maxlength="12">
-                <label for="career">Desired Career:</label>
-                    <select size="1" name="career" id="career" required="required">
-                        <option value="undetermined">Undetermined</option>
-                        <option value="producer">Producer</option>
-                        <option value="composer">Composer</option>
-                        <option value="lyricist">Lyricist</option>
-                        <option value="singer">Singer</option>
-                        <option value="dancer">Dancer</option>
-                        <option value="idol">Idol</option>
-                    </select>
-                <label for="introGoals">Introduction & Future Goals</label>
-                    <textarea name="introGoals" id="introGoals" required="required" rows="2" cols="20"></textarea>
-                <label for="actAwards">Activities & Awards</label>
-                    <textarea name="actAwards" id="actAwards" required="required" rows="2" cols="20"></textarea>
-                <label for="hobbies">Hobbies</label>
-                    <textarea name="hobbies" id="hobbies" required="required" rows="2" cols="20"></textarea>
-                <label for="talents">Talents</label>
-                    <textarea name="talents" id="talents" required="required" rows="2" cols="20"></textarea>
-                <label for="currentDateTime">Current Date & Time:</label>
-                    <input type="datetime-local" name="currentDateTime" id="currentDateTime" required="required">
-                <label for="submission">Submission:</label>
-                    <input type="file" name="submission" id="submission" multiple required="required">
-                <div class="grid-item grid-col-span">
+                        <input type="text" name="weight" id="weight" required="required" value="kg">
+                </div>
+                <div id="flex-container">
+                    <label for="email">E-mail Address:</label>
+                        <input type="text" name="email" id="email" required="required">
+                </div>
+                <div id="flex-container">
+                    <label for="phone">Phone Number:</label>
+                        <input type="text" name="phone" id="phone" required="required" maxlength="12">
+                </div>
+                <div id="flex-container">
+                    <label for="career">Desired Career:</label>
+                        <select size="1" name="career" id="career" required="required">
+                            <option value="undetermined">Undetermined</option>
+                            <option value="producer">Producer</option>
+                            <option value="composer">Composer</option>
+                            <option value="lyricist">Lyricist</option>
+                            <option value="singer">Singer</option>
+                            <option value="dancer">Dancer</option>
+                            <option value="idol">Idol</option>
+                        </select>
+                </div>
+                <div id="flex-container">
+                    <label for="introGoals">Introduction & Future Goals</label>
+                        <textarea name="introGoals" id="introGoals" required="required" rows="2" cols="20"></textarea>
+                </div>
+                <div id="flex-container">
+                    <label for="actAwards">Activities & Awards</label>
+                        <textarea name="actAwards" id="actAwards" required="required" rows="2" cols="20"></textarea>
+                </div>
+                <div id="flex-container">
+                    <label for="hobbies">Hobbies</label>
+                        <textarea name="hobbies" id="hobbies" required="required" rows="2" cols="20"></textarea>
+                </div>
+                <div id="flex-container">
+                    <label for="talents">Talents</label>
+                        <textarea name="talents" id="talents" required="required" rows="2" cols="20"></textarea>
+                </div>
+                <div id="flex-container">
+                    <label for="currentDateTime">Current Date & Time:</label>
+                        <input type="datetime-local" name="currentDateTime" id="currentDateTime" required="required">
+                </div>
+                <div id="flex-container">
+                    <label for="submission">Submission:</label>
+                        <input type="file" name="submission" id="submission" multiple required="required">
+                </div>
+                <div id="flex-container">
                     <input type="submit">
                 </div>
             </form>
+        </div>
         </main>
         <footer>
             <h3>Contact</h3>
