@@ -82,7 +82,7 @@ nav a:hover::before {
     text-align: left;
     text-indent: 10%;
 }
-.aud-content {
+.aud-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column: span 2;
@@ -96,6 +96,28 @@ nav a:hover::before {
     text-align: left;
     font-weight: bold;
     line-height: 2em;
+}
+.index-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: span 2;
+    gap: 1.5rem;
+}
+.index-h {
+    display: grid;
+    justify-content: start;
+    padding-left: 50px;
+}
+.index-info {
+    display: grid;
+    padding-left: 350px;
+    font-size: 20px;
+}
+.index-n2 {
+    font-size: 19px;
+}
+.index-h3 {
+    font-size: 20px;
 }
 span {
     font-family: "Arial Unicode MS";
