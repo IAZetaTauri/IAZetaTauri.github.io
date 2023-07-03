@@ -104,19 +104,7 @@ span {
     display: grid;
     place-items: center;
 }
-#mus-img-1 {
-    display: grid;
-    place-items: center;
-}
-#mus-img-2 {
-    display: grid;
-    place-items: center;
-}
-#mus-img-3 {
-    display: grid;
-    place-items: center;
-}
-#mus-img-4 {
+.mus-img {
     display: grid;
     place-items: center;
 }
