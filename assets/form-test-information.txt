@@ -1,0 +1,15 @@
+firstName : 산
+lastName : 최
+dob : 1999-07-10
+sex : male
+height : 180cm
+weight : 70kg
+email : 산이@helixent.com
+phone : 385-368-3896
+career : singer
+introGoals : I want to build connections with others through music. My biggest dream is to be able to help people going through hard times through my singing. I wish to be a positive influence on others.
+actAwards : -Taekwondo black belt -National Honor Society Member -Best Friends Animal Society Member -Food for Thought Founding Commitee
+hobbies : -Boxing -Gaming -Reading -Dancing -Singing -Poetry
+talents : -Singing -Art
+currentDateTime : 2023-06-28T23:33
+submission : audition.docx
