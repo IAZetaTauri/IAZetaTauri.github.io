@@ -76,6 +76,11 @@ nav a:hover::before {
     gap: 1.5rem;
     grid-template-columns: repeat(2, 1fr);
     border-bottom: 1px solid #000000;
+    padding: 50px;
+}
+.content-p {
+    text-align: left;
+    text-indent: 10%;
 }
 .artist-img {
     display: grid;
@@ -184,6 +189,11 @@ p {
     width: 100%;
     padding: 40px;
 }
+.aud-table {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
 .logos-span {
     display: flex;
     flex-direction: row;
@@ -248,6 +258,18 @@ tr:nth-of-type(even) {
 }
 tbody {
     width: 1000px;
+}
+footer {
+    text-align: center;
+    padding: 8px;
+    font-family: 'Exo 2', Helvetica, sans-serif;
+}
+footer a{
+    text-decoration: none;
+    color: #000000;
+}
+footer a:hover {
+    color: #e6ff00;
 }
 .grid-col-span {
     grid-column: span 2;
