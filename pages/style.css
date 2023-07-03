@@ -189,11 +189,6 @@ p {
     width: 100%;
     padding: 40px;
 }
-.aud-table {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-}
 .logos-span {
     display: flex;
     flex-direction: row;
