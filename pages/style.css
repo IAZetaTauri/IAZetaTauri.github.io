@@ -82,6 +82,24 @@ nav a:hover::before {
     text-align: left;
     text-indent: 10%;
 }
+.aud-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column: span 2;
+}
+.aud-info {
+    display: grid;
+    justify-content: end;
+}
+.aud-list {
+    font-size: 19px; 
+    text-align: left;
+    font-weight: bold;
+    line-height: 2em;
+}
+span {
+    font-family: "Arial Unicode MS";
+}
 .artist-img {
     display: grid;
     place-items: center;
