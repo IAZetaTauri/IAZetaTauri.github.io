@@ -272,6 +272,7 @@ table {
 th {
     padding: 100px;
     width: 550px;
+    text-align: left;
 }
 td {
     width: 550px;
